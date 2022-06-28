@@ -4,9 +4,8 @@ import Card from "./Card";
 import data from "../data";
 
 export default function MainContent() {
-  return (
-    <section className="journal-list">
-      <Card />
-    </section>
-  );
+  let cards = data.map((c, i) => {
+    return <Card details={c} key={i} />;
+  });
+  return <section className="journal-list">{cards}</section>;
 }

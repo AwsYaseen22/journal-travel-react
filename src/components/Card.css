@@ -3,6 +3,7 @@
     height: 220px;
     /* background-color: blueviolet; */
     display: flex;
+    margin-bottom: 40px;
 }
 
 .card--image{
