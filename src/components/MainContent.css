@@ -1,0 +1,6 @@
+.journal-list{
+    background: #FFFFFF;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+}
